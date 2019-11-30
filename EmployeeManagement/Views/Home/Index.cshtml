@@ -15,10 +15,12 @@
             </div>
             <img class="card-img-top imageThumbnail" src="@photoPath" asp-append-version="true"/>
             <div class="card-footer text-center">
-                <a asp-controller="home" asp-action="details" asp-route-id="@employee.Id"
-                   class="btn btn-primary m-1">View</a>
-                <a asp-controller="Home" asp-action="Edit" asp-route-id="@employee.Id"
-                   class="btn btn-warning m-1">Edit</a>
+                <a asp-controller="home" asp-action="details" 
+                    asp-route-id="@employee.Id"
+                    class="btn btn-primary m-1">View</a>
+                <a asp-controller="Home" asp-action="Edit" 
+                    asp-route-id="@employee.Id"
+                    class="btn btn-warning m-1">Edit</a>
 
                 <a class="btn btn-danger m-1">Delete</a>
             </div>
